@@ -1,0 +1,12 @@
+body {
+    font-family: Arial, sans-serif;
+}
+select {
+    margin: 20px 0;
+    padding: 10px;
+    font-size: 16px;
+}
+#selectedKiller {
+    margin-top: 20px;
+    font-weight: bold;
+}
