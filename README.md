@@ -1,2 +1,2 @@
-# serial-killer-stats
-A repository aimed at educating people on the various serial killers throughout history and their statistics that each of them have. An interesting way to view the years they were active and what happened during those years.
+# Criminal Psychology Visualization
+A repository aimed at educating people on the various criminals throughout history and the statistics that each of them has. It is an interesting way to view their active years and what happened during those years.
