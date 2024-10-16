@@ -1,7 +1,7 @@
 const serialKillerStats = {
     "Ted Bundy": {
         victims: "30+ confirmed",
-        country: "United States",
+        country: "United States 🇺🇸",
         activeYears: "1974–1978",
         weapon: "Strangulation, blunt force",
         murderLocations: "Washington, Oregon, Utah, Colorado, Florida",
@@ -15,7 +15,7 @@ const serialKillerStats = {
     },
     "Jeffrey Dahmer": {
         victims: "17 confirmed",
-        country: "United States",
+        country: "United States 🇺🇸",
         activeYears: "1978–1991",
         weapon: "Drugging, strangulation",
         murderLocations: "Wisconsin, Ohio",
@@ -29,7 +29,7 @@ const serialKillerStats = {
     },
     "John Wayne Gacy": {
         victims: "33 confirmed",
-        country: "United States",
+        country: "United States 🇺🇸",
         activeYears: "1972–1978",
         weapon: "Suffocation, strangulation",
         murderLocations: "Illinois",
@@ -43,7 +43,7 @@ const serialKillerStats = {
     },
     "Jack the Ripper": {
         victims: "5 confirmed",
-        country: "United Kingdom",
+        country: "United Kingdom 🇬🇧",
         activeYears: "1888",
         weapon: "Knife",
         murderLocations: "Whitechapel, London",
@@ -57,7 +57,7 @@ const serialKillerStats = {
     },
     "Aileen Wuornos": {
         victims: "7 confirmed",
-        country: "United States",
+        country: "United States 🇺🇸",
         activeYears: "1989–1990",
         weapon: "Gun",
         murderLocations: "Florida",
@@ -71,7 +71,7 @@ const serialKillerStats = {
     },
     "Pedro Alonso López": {
         victims: "300+ suspected",
-        country: "Colombia, Peru, Ecuador",
+        country: "Colombia 🇨🇴, Peru 🇵🇪, Ecuador 🇪🇨",
         activeYears: "1969–1980",
         weapon: "Strangulation",
         murderLocations: "South America",
@@ -85,7 +85,7 @@ const serialKillerStats = {
     },
     "Andrei Chikatilo": {
         victims: "52 confirmed",
-        country: "Soviet Union (Russia)",
+        country: "Soviet Union (Russia) 🇷🇺",
         activeYears: "1978–1990",
         weapon: "Stabbing, strangulation",
         murderLocations: "Rostov region, Soviet Union",
@@ -99,7 +99,7 @@ const serialKillerStats = {
     },
     "Richard Ramirez": {
         victims: "13 confirmed",
-        country: "United States",
+        country: "United States 🇺🇸",
         activeYears: "1984–1985",
         weapon: "Guns, knives, hammers",
         murderLocations: "California (Los Angeles, San Francisco)",
@@ -113,7 +113,7 @@ const serialKillerStats = {
     },
     "Harold Shipman": {
         victims: "250+ suspected",
-        country: "United Kingdom",
+        country: "United Kingdom 🇬🇧",
         activeYears: "1975–1998",
         weapon: "Lethal injection",
         murderLocations: "United Kingdom",
@@ -127,7 +127,7 @@ const serialKillerStats = {
     },
     "Ed Gein": {
         victims: "2 confirmed, many body parts recovered",
-        country: "United States",
+        country: "United States 🇺🇸",
         activeYears: "1954–1957",
         weapon: "Shooting",
         murderLocations: "Wisconsin",
@@ -141,7 +141,7 @@ const serialKillerStats = {
     },
     "Dennis Rader": {
         victims: "10 confirmed",
-        country: "United States",
+        country: "United States 🇺🇸",
         activeYears: "1974–1991",
         weapon: "Strangulation",
         murderLocations: "Kansas",
@@ -155,7 +155,7 @@ const serialKillerStats = {
     },
     "Gary Ridgway": {
         victims: "49 confirmed, 70+ suspected",
-        country: "United States",
+        country: "United States 🇺🇸",
         activeYears: "1982–2001",
         weapon: "Strangulation",
         murderLocations: "Washington State",
@@ -169,7 +169,7 @@ const serialKillerStats = {
     },
     "David Berkowitz": {
         victims: "6 confirmed",
-        country: "United States",
+        country: "United States 🇺🇸",
         activeYears: "1976–1977",
         weapon: "Handgun",
         murderLocations: "New York City",
@@ -183,7 +183,7 @@ const serialKillerStats = {
     },
     "Albert Fish": {
         victims: "3 confirmed, suspected of many more",
-        country: "United States",
+        country: "United States 🇺🇸",
         activeYears: "1924–1932",
         weapon: "Various (knives, saws)",
         murderLocations: "New York, other U.S. cities",
@@ -197,7 +197,7 @@ const serialKillerStats = {
     },
     "H.H. Holmes": {
         victims: "9 confirmed, many more suspected",
-        country: "United States",
+        country: "United States 🇺🇸",
         activeYears: "1890–1894",
         weapon: "Poison, suffocation, stabbing",
         murderLocations: "Chicago (Illinois)",
