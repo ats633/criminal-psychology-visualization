@@ -4,8 +4,10 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image:  linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), 
+    background-image: 
+    linear-gradient(rgba(13, 13, 13, 0.8), rgba(178, 34, 34, 0.5)), 
     url('image.png');
+    background-position: center;
     background-size: contain;
  
 }
@@ -17,21 +19,37 @@ body {
     border: 3px solid black;
     padding: 20px;
     border-radius: 20px;
-    background-color: rgba(255, 255, 255, 0.4);
-    box-shadow: 2px 2px 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: 2px 1px 10px;
 }
 h1{
-    text-shadow: 2px 2px 5px rgba(255, 0, 0, 0.202);
+    color: #2F4F4F;
+    text-shadow: 
+        4px 4px 8px rgba(47, 79, 79, 0.8),
+        2px 2px 12px rgba(75, 0, 130, 0.6),
+        0 0 10px rgba(0, 0, 0, 0.9);
+    font-family: 'Arial Black', sans-serif;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 5px rgba(178, 34, 34, 0.8);
     text-decoration: underline;
     font-size: 50px;
 }
 select {
-    margin: 10px 0;
+   margin: 10px 0;
     padding: 10px;
     font-size: 16px;
-    background-color: rgba(100, 100, 100, 0.394);
+    background-color: rgba(47, 79, 79, 0.7);
+    color: #B22222;
     font-weight: 900;
-    box-shadow: 1px 1px 4px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8);
+    border: none;
+    border-radius: 4px;
+    text-transform: uppercase;  box-shadow: 1px 1px 4px;
+}
+
+strong{
+      color: #4d2345;
+    font-family: 'Arial Black', sans-serif;
 }
 #selectedKiller {
     margin-top: 20px;
