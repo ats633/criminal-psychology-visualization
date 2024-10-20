@@ -1,365 +1,217 @@
-// Create an object to hold stats for each serial killer
 const serialKillerStats = {
     "Ted Bundy": {
         victims: "30+ confirmed",
-        country: "United States",
+        country: "United States 🇺🇸",
         activeYears: "1974–1978",
-        weapon: "Blunt objects, strangulation",
-        murderLocations: "Washington, Utah, Colorado, Florida, Oregon, Idaho",
-        placeOfBirth: "Burlington, Vermont, USA",
-        placeOfDeath: "Florida State Prison, Florida, USA (executed)",
+        weapon: "Strangulation, blunt force",
+        murderLocations: "Washington, Oregon, Utah, Colorado, Florida",
         funFacts: [
-            "Ted Bundy was known for his charm and good looks.",
-            "He often pretended to be injured to lure his victims.",
-            "Bundy escaped from prison twice before being recaptured.",
-            "His final murder spree occurred in Florida, where he killed two women in a sorority house.",
-            "Bundy was executed in the electric chair in 1989."
-        ],
-        movies: ["The Deliberate Stranger (1986)", "Extremely Wicked, Shockingly Evil and Vile (2019)"],
-        books: ["The Stranger Beside Me by Ann Rule", "Ted Bundy: Conversations with a Killer by Stephen Michaud"]
+            "Ted Bundy often used his charm and good looks to lure victims.",
+            "He was a law student at the University of Utah.",
+            "Bundy escaped from custody twice before his final capture.",
+            "He confessed to killing 30 women, though the actual number is believed to be higher.",
+            "Bundy was executed in Florida's electric chair in 1989."
+        ]
     },
     "Jeffrey Dahmer": {
         victims: "17 confirmed",
-        country: "United States",
+        country: "United States 🇺🇸",
         activeYears: "1978–1991",
-        weapon: "Strangulation, dismemberment",
+        weapon: "Drugging, strangulation",
         murderLocations: "Wisconsin, Ohio",
-        placeOfBirth: "Milwaukee, Wisconsin, USA",
-        placeOfDeath: "Portage, Wisconsin, USA (murdered in prison)",
         funFacts: [
-            "Dahmer was known as the 'Milwaukee Cannibal' for his gruesome crimes.",
-            "He would preserve body parts and keep them as trophies.",
-            "Dahmer’s victims were mostly young men, many of whom he lured back to his apartment.",
-            "He was arrested in 1991 when a would-be victim escaped and alerted the police.",
-            "Dahmer was beaten to death by a fellow inmate in 1994."
-        ],
-        movies: ["Dahmer (2002)", "My Friend Dahmer (2017)"],
-        books: ["The Jeffrey Dahmer Story by Don Davis", "A Father's Story by Lionel Dahmer"]
+            "Dahmer's apartment was later referred to as a 'house of horrors.'",
+            "He was diagnosed with borderline personality disorder.",
+            "Dahmer attempted to create 'zombie' followers by injecting acid into victims' brains.",
+            "He was sentenced to 15 consecutive life terms in prison.",
+            "Dahmer was murdered by a fellow inmate in 1994."
+        ]
     },
     "John Wayne Gacy": {
         victims: "33 confirmed",
-        country: "United States",
+        country: "United States 🇺🇸",
         activeYears: "1972–1978",
-        weapon: "Strangulation, suffocation",
+        weapon: "Suffocation, strangulation",
         murderLocations: "Illinois",
-        placeOfBirth: "Chicago, Illinois, USA",
-        placeOfDeath: "Crest Hill, Illinois, USA (executed)",
         funFacts: [
-            "Gacy was known as the 'Killer Clown' because he performed as a clown at children's parties.",
-            "He lured young boys to his home, where he killed and buried most of them in his crawl space.",
-            "He was convicted in 1980 and sentenced to death.",
-            "He spent 14 years on death row before being executed by lethal injection in 1994.",
-            "He was one of the most notorious serial killers in American history."
-        ],
-        movies: ["Gacy (2003)"],
-        books: ["Killer Clown by Terry Sullivan", "Buried Dreams by Tim Cahill"]
+            "Gacy performed as a clown at children's parties, earning him the name 'Killer Clown.'",
+            "He was active in local politics and even had a photo taken with the President.",
+            "Gacy buried many of his victims in the crawl space of his home.",
+            "He was arrested in 1978 after a teenage boy went missing.",
+            "Gacy was executed by lethal injection in 1994."
+        ]
     },
     "Jack the Ripper": {
-        victims: "5 confirmed, possibly more",
-        country: "United Kingdom",
+        victims: "5 confirmed",
+        country: "United Kingdom 🇬🇧",
         activeYears: "1888",
         weapon: "Knife",
         murderLocations: "Whitechapel, London",
-        placeOfBirth: "Unknown",
-        placeOfDeath: "Unknown",
         funFacts: [
-            "Jack the Ripper's identity remains a mystery to this day.",
-            "He targeted prostitutes in the Whitechapel district of London.",
-            "The nature of the murders suggested medical knowledge due to the precise mutilations.",
-            "Many theories about his identity exist, but none have been proven.",
-            "Jack the Ripper is one of the most famous unidentified serial killers."
-        ],
-        movies: ["From Hell (2001)", "Jack the Ripper (1988)"],
-        books: ["Jack the Ripper: The Definitive History by Paul Begg", "The Complete Jack the Ripper by Donald Rumbelow"]
+            "Jack the Ripper’s identity remains a mystery to this day.",
+            "The Ripper taunted police with letters, signed 'Jack the Ripper.'",
+            "Victims were primarily women involved in sex work.",
+            "The case remains one of the most infamous unsolved crimes in history.",
+            "Several theories exist about the Ripper's identity, including suspects from various backgrounds."
+        ]
     },
     "Aileen Wuornos": {
         victims: "7 confirmed",
-        country: "United States",
+        country: "United States 🇺🇸",
         activeYears: "1989–1990",
-        weapon: "Shooting",
+        weapon: "Gun",
         murderLocations: "Florida",
-        placeOfBirth: "Rochester, Michigan, USA",
-        placeOfDeath: "Florida State Prison, Florida, USA (executed)",
         funFacts: [
-            "Wuornos was a rare female serial killer who targeted men.",
-            "She claimed her killings were in self-defense against men who had assaulted her.",
-            "Her life story was portrayed in the movie 'Monster' (2003).",
-            "She was sentenced to death and executed by lethal injection in 2002.",
-            "She became a symbol of the complexity of female serial killers."
-        ],
-        movies: ["Monster (2003)"],
-        books: ["Dear Dawn: Aileen Wuornos in Her Own Words by Lisa Kester"]
+            "Aileen Wuornos' life story was adapted into the movie 'Monster,' for which Charlize Theron won an Oscar.",
+            "She claimed her victims had attempted to sexually assault her.",
+            "Wuornos was executed in Florida in 2002.",
+            "She was diagnosed with borderline personality disorder and antisocial personality disorder.",
+            "Her life was marked by a history of abuse and hardship."
+        ]
     },
     "Pedro Alonso López": {
-        victims: "110+ confirmed, suspected of up to 300",
-        country: "Colombia, Ecuador, Peru",
+        victims: "300+ suspected",
+        country: "Colombia 🇨🇴, Peru 🇵🇪, Ecuador 🇪🇨",
         activeYears: "1969–1980",
         weapon: "Strangulation",
-        murderLocations: "Colombia, Ecuador, Peru",
-        placeOfBirth: "Santa Isabel, Colombia",
-        placeOfDeath: "Unknown",
+        murderLocations: "South America",
         funFacts: [
-            "López is known as the 'Monster of the Andes.'",
-            "He targeted young girls across several South American countries.",
-            "He claimed to have killed more than 300 girls.",
-            "López was arrested in 1980 but later released, and his whereabouts are currently unknown.",
-            "His true number of victims may never be known due to inconsistent record-keeping."
-        ],
-        movies: [],
-        books: []
+            "Pedro López, known as 'The Monster of the Andes,' targeted young girls.",
+            "He was arrested in 1980 and confessed to the murders.",
+            "López was declared insane and sent to a psychiatric hospital.",
+            "He was released in 1998 but later re-arrested.",
+            "López claims he was inspired to kill after being abused as a child."
+        ]
     },
     "Andrei Chikatilo": {
         victims: "52 confirmed",
-        country: "Soviet Union",
+        country: "Soviet Union (Russia) 🇷🇺",
         activeYears: "1978–1990",
         weapon: "Stabbing, strangulation",
-        murderLocations: "Rostov Oblast, Russia",
-        placeOfBirth: "Yabluchne, Ukraine",
-        placeOfDeath: "Moscow, Russia (executed)",
+        murderLocations: "Rostov region, Soviet Union",
         funFacts: [
-            "Chikatilo was known as the 'Butcher of Rostov.'",
-            "He targeted women and children, often mutilating their bodies.",
-            "Chikatilo evaded capture for over a decade due to poor Soviet police practices.",
-            "He was finally caught in 1990 and executed by gunshot in 1994.",
-            "Chikatilo is one of the most notorious serial killers in Russian history."
-        ],
-        movies: ["Citizen X (1995)"],
-        books: ["The Red Ripper by Peter Conradi", "Hunting the Devil by Richard Lourie"]
+            "Chikatilo was a former teacher who preyed on women and children.",
+            "He was nicknamed 'The Butcher of Rostov' and 'The Red Ripper.'",
+            "Chikatilo's trial was one of the longest in Russian history.",
+            "He often lured victims to remote areas before killing them.",
+            "Chikatilo was executed by a gunshot in 1994."
+        ]
     },
     "Richard Ramirez": {
         victims: "13 confirmed",
-        country: "United States",
+        country: "United States 🇺🇸",
         activeYears: "1984–1985",
-        weapon: "Shooting, stabbing, bludgeoning",
-        murderLocations: "California",
-        placeOfBirth: "El Paso, Texas, USA",
-        placeOfDeath: "Marin General Hospital, California, USA",
+        weapon: "Guns, knives, hammers",
+        murderLocations: "California (Los Angeles, San Francisco)",
         funFacts: [
-            "Ramirez was known as the 'Night Stalker.'",
-            "He broke into homes and murdered people in their beds.",
-            "Ramirez claimed to be a Satanist and left symbols at crime scenes.",
-            "He was caught in 1985 after being recognized by a mob of citizens in Los Angeles.",
-            "He died of complications from lymphoma in 2013 while on death row."
-        ],
-        movies: ["Nightstalker (2002)"],
-        books: ["The Night Stalker by Philip Carlo"]
+            "Richard Ramirez was known as the 'Night Stalker' for his nighttime home invasions.",
+            "He was influenced by his cousin, who was a soldier in Vietnam.",
+            "Ramirez was convicted of 13 murders, 5 attempted murders, and 11 sexual assaults.",
+            "He died of cancer while on death row in 2013.",
+            "Ramirez often left satanic symbols at crime scenes."
+        ]
     },
     "Harold Shipman": {
-        victims: "250+ confirmed",
-        country: "United Kingdom",
+        victims: "250+ suspected",
+        country: "United Kingdom 🇬🇧",
         activeYears: "1975–1998",
-        weapon: "Lethal injection (medical)",
-        murderLocations: "Hyde, England",
-        placeOfBirth: "Nottingham, England",
-        placeOfDeath: "Wakefield Prison, England (suicide)",
+        weapon: "Lethal injection",
+        murderLocations: "United Kingdom",
         funFacts: [
-            "Shipman was a general practitioner who killed his patients, mainly elderly women.",
-            "He is one of the most prolific serial killers in history.",
-            "Shipman was caught after forging the will of a patient to inherit her estate.",
-            "He committed suicide in 2004, the day before his 58th birthday.",
-            "A public inquiry found that Shipman had murdered at least 250 patients."
-        ],
-        movies: ["Doctor Death (2010)"],
-        books: ["The Good Doctor by Wensley Clarkson", "Prescription for Murder by Brian Whittle"]
+            "Harold Shipman, a doctor, is one of the most prolific serial killers in modern history.",
+            "He was convicted in 2000 of murdering 15 patients.",
+            "Shipman often forged patients' wills to benefit himself.",
+            "He committed suicide in prison in 2004.",
+            "Many of his victims were elderly women."
+        ]
     },
     "Ed Gein": {
-        victims: "2 confirmed, suspected of more",
-        country: "United States",
+        victims: "2 confirmed, many body parts recovered",
+        country: "United States 🇺🇸",
         activeYears: "1954–1957",
         weapon: "Shooting",
         murderLocations: "Wisconsin",
-        placeOfBirth: "La Crosse, Wisconsin, USA",
-        placeOfDeath: "Mendota Mental Health Institute, Wisconsin, USA",
         funFacts: [
-            "Gein inspired characters in movies like 'Psycho,' 'The Texas Chainsaw Massacre,' and 'Silence of the Lambs.'",
-            "He exhumed corpses from local graveyards to make macabre trophies.",
-            "Gein's house of horrors was discovered in 1957.",
-            "He was declared legally insane and spent the rest of his life in a mental institution.",
-            "His crimes shocked the small town of Plainfield, Wisconsin."
-        ],
-        movies: ["Deranged (1974)", "Ed Gein (2000)"],
-        books: ["Deviant by Harold Schechter", "Ed Gein: Psycho by Paul Anthony Woods"]
+            "Ed Gein inspired many horror films, including 'Psycho' and 'The Texas Chainsaw Massacre.'",
+            "He was a grave robber who exhumed bodies from local cemeteries.",
+            "Gein was found not guilty by reason of insanity.",
+            "He was committed to a mental institution until his death in 1984.",
+            "His home was filled with gruesome trophies made from human remains."
+        ]
     },
     "Dennis Rader": {
         victims: "10 confirmed",
-        country: "United States",
+        country: "United States 🇺🇸",
         activeYears: "1974–1991",
         weapon: "Strangulation",
         murderLocations: "Kansas",
-        placeOfBirth: "Pittsburg, Kansas, USA",
-        placeOfDeath: "Currently alive (serving life sentences)",
         funFacts: [
-            "Rader was known as the 'BTK Killer' (Bind, Torture, Kill).",
-            "He taunted police with letters describing his crimes.",
-            "Rader led a double life as a church leader and family man.",
-            "He was caught in 2005 after sending a floppy disk to the police, which they traced back to him.",
-            "Rader is serving 10 consecutive life sentences in prison."
-        ],
-        movies: ["BTK (2008)"],
-        books: ["Confession of a Serial Killer by Katherine Ramsland", "Bind, Torture, Kill by Roy Wenzl"]
+            "Dennis Rader, also known as BTK ('Bind, Torture, Kill'), taunted the police with letters.",
+            "He held a regular job as a compliance officer.",
+            "Rader was arrested in 2005 after his DNA was matched to a crime scene.",
+            "He committed his first murder at the age of 29.",
+            "Rader was sentenced to 10 consecutive life sentences without the possibility of parole."
+        ]
     },
     "Gary Ridgway": {
-        victims: "49 confirmed, suspected of more",
-        country: "United States",
+        victims: "49 confirmed, 70+ suspected",
+        country: "United States 🇺🇸",
         activeYears: "1982–2001",
         weapon: "Strangulation",
-        murderLocations: "Washington",
-        placeOfBirth: "Salt Lake City, Utah, USA",
-        placeOfDeath: "Currently alive (serving life sentences)",
+        murderLocations: "Washington State",
         funFacts: [
-            "Ridgway was known as the 'Green River Killer.'",
-            "He targeted sex workers and runaways in the Seattle area.",
-            "Ridgway evaded capture for almost two decades.",
-            "He confessed to killing 49 women but may have murdered more.",
-            "Ridgway was sentenced to life in prison without the possibility of parole in 2003."
-        ],
-        movies: ["The Riverman (2004)"],
-        books: ["Green River, Running Red by Ann Rule"]
+            "Gary Ridgway, known as the Green River Killer, targeted sex workers.",
+            "He initially evaded capture for nearly two decades.",
+            "Ridgway confessed to murdering 71 women, but 49 were confirmed.",
+            "He cooperated with law enforcement to help locate the remains of victims.",
+            "Ridgway was sentenced to 49 life terms in 2003."
+        ]
     },
     "David Berkowitz": {
         victims: "6 confirmed",
-        country: "United States",
+        country: "United States 🇺🇸",
         activeYears: "1976–1977",
-        weapon: "Shooting",
-        murderLocations: "New York",
-        placeOfBirth: "Brooklyn, New York, USA",
-        placeOfDeath: "Currently alive (serving life sentences)",
+        weapon: "Handgun",
+        murderLocations: "New York City",
         funFacts: [
-            "Berkowitz was known as the 'Son of Sam.'",
-            "He terrorized New York City during the summer of 1977.",
-            "Berkowitz claimed that his neighbor's dog commanded him to kill.",
-            "He was captured in 1977 after a massive manhunt.",
-            "Berkowitz has since become a born-again Christian in prison."
-        ],
-        movies: ["Summer of Sam (1999)"],
-        books: ["Son of Sam by Lawrence Klausner"]
+            "David Berkowitz, known as the 'Son of Sam,' claimed a demon-possessed dog commanded him to kill.",
+            "He was a former army veteran and had a troubled childhood.",
+            "Berkowitz was captured after a parking ticket led police to his car.",
+            "He was sentenced to 25 years to life in prison.",
+            "Berkowitz later became a born-again Christian while in prison."
+        ]
     },
     "Albert Fish": {
-        victims: "3 confirmed, suspected of more",
-        country: "United States",
+        victims: "3 confirmed, suspected of many more",
+        country: "United States 🇺🇸",
         activeYears: "1924–1932",
-        weapon: "Strangulation, stabbing",
-        murderLocations: "New York",
-        placeOfBirth: "Washington, D.C., USA",
-        placeOfDeath: "Sing Sing Prison, New York, USA (executed)",
+        weapon: "Various (knives, saws)",
+        murderLocations: "New York, other U.S. cities",
         funFacts: [
-            "Fish was known as the 'Brooklyn Vampire' and 'The Boogey Man.'",
-            "He was a cannibal and sadomasochist who targeted children.",
-            "Fish sent a letter to the family of one of his victims, describing the murder.",
-            "He was arrested in 1934 and executed in the electric chair in 1936.",
-            "Fish claimed to have killed and eaten several other children, though these claims were never confirmed."
-        ],
-        movies: ["The Gray Man (2007)"],
-        books: ["Deranged by Harold Schechter"]
+            "Albert Fish was a sadomasochist who sent letters to his victims’ families.",
+            "He claimed to have had a craving for human flesh since childhood.",
+            "Fish was arrested in 1934 after the murder of a young girl named Grace Budd.",
+            "He was executed in the electric chair in 1936.",
+            "Fish's horrific acts inspired several horror films and literature."
+        ]
     },
     "H.H. Holmes": {
-        victims: "27 confirmed, suspected of more",
-        country: "United States",
-        activeYears: "1891–1894",
-        weapon: "Various methods",
-        murderLocations: "Chicago, Illinois",
-        placeOfBirth: "Gilmanton, New Hampshire, USA",
-        placeOfDeath: "Philadelphia, Pennsylvania, USA (executed)",
+        victims: "9 confirmed, many more suspected",
+        country: "United States 🇺🇸",
+        activeYears: "1890–1894",
+        weapon: "Poison, suffocation, stabbing",
+        murderLocations: "Chicago (Illinois)",
         funFacts: [
-            "Holmes was a con artist and the architect of the 'Murder Castle,' a hotel designed for killing.",
-            "He used his hotel to lure victims during the 1893 World's Fair in Chicago.",
-            "Holmes was caught after a botched insurance fraud scheme.",
-            "He confessed to 27 murders, though the real number may be higher.",
-            "Holmes was executed by hanging in 1896."
-        ],
-        movies: ["H.H. Holmes: America's First Serial Killer (2004)"],
-        books: ["The Devil in the White City by Erik Larson"]
-    },
-    "Edmund Kemper": {
-        victims: "10 confirmed",
-        country: "United States",
-        activeYears: "1964–1973",
-        weapon: "Strangulation, shooting",
-        murderLocations: "California",
-        placeOfBirth: "Burbank, California, USA",
-        placeOfDeath: "Currently in prison",
-        funFacts: [
-            "Kemper was known as the 'Co-Ed Killer.'",
-            "He killed his grandparents when he was 15 years old.",
-            "He murdered and dismembered female college students and his mother.",
-            "Kemper turned himself in after killing his mother and a friend.",
-            "He is known for his high IQ and has participated in many interviews."
-        ],
-        movies: ["Kemper: The Co-Ed Killer (2008)", "Mindhunter (2017–2019)"],
-        books: ["The Co-Ed Killer by Margaret Cheney", "Kemper on Kemper by John E. Douglas"]
-    },
-    "Israel Keyes": {
-        victims: "3 confirmed, suspected of more",
-        country: "United States",
-        activeYears: "2001–2012",
-        weapon: "Shooting, strangulation",
-        murderLocations: "Various locations across the US",
-        placeOfBirth: "Richmond, Utah, USA",
-        placeOfDeath: "Anchorage, Alaska, USA (suicide)",
-        funFacts: [
-            "Keyes was known for his meticulous planning and creating 'kill kits.'",
-            "He did not have a specific victim profile, making him harder to catch.",
-            "He traveled across the country to commit murders, making him a unique case.",
-            "Keyes committed suicide in 2012 while in custody.",
-            "He is believed to have killed up to 11 people."
-        ],
-        movies: ["Method of a Serial Killer (2018)"],
-        books: ["American Predator by Maureen Callahan"]
-    },
-    "John George Haigh": {
-        victims: "6 confirmed",
-        country: "United Kingdom",
-        activeYears: "1944–1949",
-        weapon: "Shooting, bludgeoning, acid baths",
-        murderLocations: "London, Sussex, UK",
-        placeOfBirth: "Stamford, Lincolnshire, England",
-        placeOfDeath: "Wandsworth Prison, London, England (executed)",
-        funFacts: [
-            "Haigh was known as the 'Acid Bath Murderer.'",
-            "He dissolved his victims' bodies in sulfuric acid to dispose of evidence.",
-            "Haigh claimed he believed that without a body, there could be no crime.",
-            "He was caught after failing to dispose of all evidence properly.",
-            "Haigh was executed by hanging in 1949."
-        ],
-        movies: ["A is for Acid (2002)"],
-        books: ["Acid Bath Murderer by Gordon Lowe", "The Acid Bath Murders by Donald Rumbelow"]
-    },
-    "Peter Sutcliffe": {
-        victims: "13 confirmed",
-        country: "United Kingdom",
-        activeYears: "1975–1980",
-        weapon: "Hammer, knives",
-        murderLocations: "Yorkshire, UK",
-        placeOfBirth: "Bingley, West Yorkshire, England",
-        placeOfDeath: "Durham Prison, England (died of COVID-19 complications)",
-        funFacts: [
-            "Sutcliffe was known as the 'Yorkshire Ripper.'",
-            "He targeted sex workers and women walking alone at night.",
-            "He eluded capture for several years despite extensive investigations.",
-            "Sutcliffe was convicted in 1981 and received 20 life sentences.",
-            "He died in prison in 2020."
-        ],
-        movies: ["This Is Personal: The Hunt for the Yorkshire Ripper (2000)"],
-        books: ["Wicked Beyond Belief by Michael Bilton", "Somebody’s Husband, Somebody’s Son by Gordon Burn"]
-    },
-    "Earle Nelson": {
-        victims: "22 confirmed, suspected of more",
-        country: "United States",
-        activeYears: "1926–1927",
-        weapon: "Strangulation",
-        murderLocations: "Various locations across the US and Canada",
-        placeOfBirth: "San Francisco, California, USA",
-        placeOfDeath: "Manitoba, Canada (executed)",
-        funFacts: [
-            "Nelson was known as the 'Gorilla Killer' for his brute strength.",
-            "He targeted landladies in boarding houses across North America.",
-            "Nelson's killings spanned multiple states and provinces, making him hard to track.",
-            "He was finally caught in Canada and extradited to the US for trial.",
-            "Nelson was executed by hanging in 1928."
-        ],
-        movies: [],
-        books: ["The Gorilla Man Strangler by Alan Whiticker"]
- function showSelectedKiller() {
+            "H.H. Holmes built a 'Murder Castle' during the 1893 World’s Fair in Chicago.",
+            "The hotel had secret rooms and trapdoors designed for killing.",
+            "He was arrested in 1894 on charges of insurance fraud.",
+            "Holmes confessed to 27 murders, although the exact number remains unknown.",
+            "He was executed by hanging in 1896."
+        ]
+    }
+};
+
+function showSelectedKiller() {
     // Get the selected killer's name
     var selectedKiller = document.getElementById("serialKillersDropdown").value;
     
